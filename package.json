@@ -7,6 +7,7 @@
         "@app": "./dist"
     },
     "scripts": {
+        "start": "node -r module-alias/register ./dist/main.js",
         "dev": "nodemon",
         "debug": "nodemon --exec node --inspect-brk=0.0.0.0:9229 --require ts-node/register src/main.ts"
     },
@@ -14,8 +15,10 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "axios": "^0.27.2",
         "dotenv": "^16.0.1",
         "module-alias": "^2.2.2",
+        "really-relaxed-json": "^0.3.1",
         "reflect-metadata": "^0.1.13"
     },
     "devDependencies": {

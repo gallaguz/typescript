@@ -1,0 +1,7 @@
+# Factory
+
+# Singleton
+
+# Prototype
+
+# Builder
